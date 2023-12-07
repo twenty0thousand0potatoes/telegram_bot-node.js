@@ -1,0 +1,438 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>LEPTIGEN MERIDIAN DIET</title>
+  <link rel="shortcut icon" type="image/png" href="favicon.ico">
+  <link rel="stylesheet" href="main.css" type="text/css" />
+  <link rel="stylesheet" href="form_pop_up.css" type="text/css"/>
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="LEPTIGEN MERIDIAN DIET"/>
+<meta property="og:description" content=""/>
+<meta property="og:url" content=""/>
+
+</head>
+<body>
+
+  <div class="form_popUp" id = "pop_up_order" >
+
+    <div class="wrapper_form">
+      <form class="order_form" id="my_form">
+        <h2>Введите данные для заказа!</h2>
+        <div class="close_cross" id="close_cross">&#10008;</div>
+    
+        <div class="inputs">
+            <input type="text" name="firstName" placeholder="Введите ваше имя..." class="input_info" />
+            <input type="text" name="lastName" placeholder="Введите ваше фамилию..." class="input_info" />
+            <input type="tel" name="phone" pattern="\+375\(\d{2}\)\d{3}-\d{2}-\d{2}" placeholder="+375(xx)xxx-xx-xx" class="input_info" />
+
+        </div>
+        <div class="wrapper_btn">
+            <button type="submit" class="server_order_btn" id="server_order_btn">Заказать</button>
+        </div>
+    </form>
+    
+    </div>
+
+  </div>
+
+  <main>
+
+
+    <header class="header">
+      <div class="body-img-wrapper">
+        <img loading="lazy" decoding="async" src="assets/body.png" alt="Спортивное тело" />
+      </div>
+      <div class="header-block">
+        <div class="block-wrapper">
+          <h1 class="block-heading">
+            ГОТОВЫ УКРЕПИТЬ ИММУНИТЕТ?<br>
+            Жевательные таблетки со вкусом тропических фруктов и персика <br>
+            <span class="product-header-text">Витамин D3</span>
+          </h1>
+          <p class="header-text">
+            Укрепляет имунитет, осуществляет профилактику сердечно-сосудистой системы, поддерживает настроение и здоровье мозга!
+          </p>
+          <div class="product-header-img-wrapper">
+            <img loading="lazy" decoding="async" src="assets/pills.png" alt="Leptigen Meridian Diet" />
+          </div>
+          <div class="product-header-description">
+            <h3 class="product-header-text-heading">
+            Витамин D3
+          </h3>
+            <ul class="product-header-advantages">
+              <li class="product-header-advantages-item">
+                Содержит только натуральные компоненты
+              </li>
+              <li class="product-header-advantages-item">
+                Нормализует обмен веществ, сгорание жира и помогает похудеть
+              </li>
+              <li class="product-header-advantages-item">
+                Предотвращает ожирение внутренних органов
+              </li>
+            </ul>
+          </div>
+          <div class="order-block">
+            <div class="price">
+              <p class="new-price"></p>
+              <img class="header-underline" src="assets/underline.png" alt="underline" />
+            </div>
+            <div class="btn-wrapper">
+              <button class="btn-order scroll_order" id="order_form_open" >Заказать</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="circle circle-item1"></div>
+      <div class="circle circle-item2"></div>
+      <div class="circle circle-item3"></div>
+      <div class="circle circle-item4"></div>
+      <div class="circle circle-item5"></div>
+    </header>
+    <section class="section-answers">
+      <div class="answers-wrapper">
+        <div class="answers-heading-wrapper">
+          <h2 class="answers-heading">Почему мы болеем?</h2>
+          <img class="answers-heading-underline" loading="lazy" decoding="async" src="assets/underline.png"            alt="underline" />
+        </div>
+        <div class="answers">
+          <div class="answer-item">
+            <h4 class="answer-heading">Ненатуральное питание</h4>
+            <div class="answer-img-wrapper">
+              <img loading="lazy" decoding="async" src="assets/food.png" srcset="assets/food2x.png 2x" alt="food" />
+            </div>
+          </div>
+          <div class="answer-item">
+            <h4 class="answer-heading">Замедленный метаболизм</h4>
+            <div class="answer-img-wrapper">
+              <img loading="lazy" decoding="async" src="assets/stomach.png" srcset="assets/stomach2x.png 2x"                alt="stomach" />
+            </div>
+          </div>
+          <div class="answer-item">
+            <h4 class="answer-heading">Малоподвижный образ жизни</h4>
+            <div class="answer-img-wrapper">
+              <img loading="lazy" decoding="async" src="assets/sedentary.png" srcset="assets/sedentary2x.png 2x"                alt="sedentary" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="circle circle-item6"></div>
+    </section>
+    <section class="section-product">
+      <div class="product-wrapper">
+        <div class="product-img-wrapper">
+          <h3 class="product-heading">Вашему организму нужен помощник</h3>
+          <img loading="lazy" decoding="async" class="product-img" src="assets/pills1.png">
+        </div>
+        <ul class="product-properties">
+          <li class="product-property">100% натуральный состав</li>
+          <li class="product-property">
+            Эффективно расщепляет жир за счет уникального комплекса активных
+            компонентов
+          </li>
+          <li class="product-property">
+            Снижает риск развития диабета, гипертонии, инфаркта
+          </li>
+          <li class="product-property">
+            Предотвращает опасное для жизни ожирение внутренних органов
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section-components">
+      <div class="components-wrapper">
+        <div class="components-header">
+          <h2 class="components-heading">Витамин D3</h2>
+          <p class="components-text">Только натуральные компоненты</p>
+          <img class="components-heading-underline" loading="lazy" decoding="async" src="assets/underline.png"            alt="underline" />
+        </div>
+        <div class="components">
+          <div class="component">
+            <img loading="lazy" decoding="async" src="assets/coffee.png" alt="coffee" class="component-img" />
+            <div class="component-hover">
+              <p class="component-text">Сорбит</p>
+            </div>
+          </div>
+          <div class="component">
+            <img loading="lazy" decoding="async" src="assets/guarana.png" alt="guarana" class="component-img" />
+            <div class="component-hover">
+              <p class="component-text">Экстракт гуараны</p>
+            </div>
+          </div>
+          <div class="component">
+            <img loading="lazy" decoding="async" src="assets/laminaria.png" alt="laminaria" class="component-img" />
+            <div class="component-hover">
+              <p class="component-text">Стеатеарат Магния</p>
+            </div>
+          </div>
+          <div class="component">
+            <img loading="lazy" decoding="async" src="assets/goji.png" alt="goji" class="component-img" />
+            <div class="component-hover">
+              <p class="component-text">Натуральный ароматизатор персиковый</p>
+            </div>
+          </div>
+          <div class="component">
+            <img loading="lazy" decoding="async" src="assets/garcinia.png" alt="garcinia" class="component-img" />
+            <div class="component-hover">
+              <p class="component-text">Лимонная кослота</p>
+            </div>
+          </div>
+          <div class="component">
+            <img loading="lazy" decoding="async" src="assets/blueberry.png" alt="blueberry" class="component-img" />
+            <div class="component-hover">
+              <p class="component-text">Витамин D3</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="how_order">
+      <div class="how_order_container">
+        <h2 class="how_order_title">КАК ЗАКАЗАТЬ?</h2>
+        <img class="answers-heading-underline how_order_title_img" loading="lazy" decoding="async"          src="assets/underline.png" alt="underline">
+        <div class="how_order_icons">
+          <div class="how_order_item">
+            <img src="assets/s1.png">
+            <p>Вы оставляете заявку на нашем сайте</p>
+          </div>
+          <div class="how_order_item">
+            <img src="assets/s2.png">
+            <p>Менеджер перезванивает для оформления заказа</p>
+          </div>
+          <div class="how_order_item">
+            <img src="assets/s3.png">
+            <p>Забираете заказ в сервисном центре
+              <!--  Доставка от 7 рабочих дней -->
+            </p>
+          </div>
+          <div class="how_order_item">
+            <img src="assets/s4.png">
+            <p>Оплачиваете при получении</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-order">
+      <div class="order-wrapper">
+        <div class="order">
+          <div class="order-img-wrapper">
+            <img loading="lazy" decoding="async" src="assets/pills2.png" alt="Leptigen Meridian Diet" />
+          </div>
+          <div></div>
+          <div class="form-wrapper">
+            <form class="main-order-form form" >
+              <div class="form-container">
+                <h4 class="order-heading">
+                  Заказать
+                  <span class="product-order-heading">Витамин D3</span>
+
+                </h4>
+
+                <center style="color: #fff">*Цена действительна при покупке курса</center>
+              </div>
+              <div class="order-block form-order-block">
+                <div class="price-order">
+                </div>
+                <div class="btn-wrapper">
+                  <button class="btn-order scroll_order" onclick="window.location.href = 'short_form.php';">Заказать</button>
+                </div>
+              </div>
+            <input type="hidden" name="l" value="1d922daf372e322ba94ada249c8f248265ca1268" />
+<input type="hidden" name="fb532ed78bcc66f9c922023985e3535f25741824" value="MGRmOTMzNDhhYWNmODlhMjU4ODc0N2I0MDY2NjE3ZGE0MDE=" />
+</form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+
+         <p style="text-align: center">
+                  <a>Независимый партнёр</a>
+                   <a href="politics.html">Политика конфиденциальности</a>
+                   <a href="agreement.html">Пользовательское соглашение</a>
+         </p>
+    </footer>
+  </main>
+
+  <script src="./assets_pages/js/pop_up_logic.js"></script>
+<script type="text/javascript" src="assets_pages/js/lib.js?v=0.0.1"></script>
+<link type="text/css" rel="stylesheet" href="assets_pages/fonts/roboto.css">
+<script type="text/javascript" src="assets_pages/js/yasoblock-v2.js?v=1"></script>
+<script type="text/javascript" src="assets_pages/js/plugins.js"></script>
+<script type="text/javascript" src="assets_pages/js/copyrights.js?v=1"></script>
+
+    <script type="text/javascript">
+        var phonePrefix = '+7';
+    </script>
+    <script type="text/javascript" src="assets_pages/js/phonePrefix.js?v=3"></script>
+
+
+
+<script>
+    var comebackerFormId = '4';
+</script>
+
+<link href="assets_pages/css/popup-m1-style.css?v=0.0.3" rel="stylesheet" type="text/css"/>
+<script src="assets_pages/js/popup-m1.js?v=0.0.1" type="text/javascript"></script>
+
+<div id="overlay-popup-m1"></div>
+<div id="m1-form" class="m1modal">
+    <a class="close-m1"></a>
+    <div><div class="popup-m1-title">Вам понравилось это предложение?</div>
+        <div class="popup-m1-cont">
+            <div class="popup-m1-text1">Мы расскажем Вам все об этом товаре, предложим наилучшие условия и ознакомим с подходящими акционными предложениями!</div>
+            <form method="post" action="" class="main-order-form popup-m1-form" onsubmit="return false;">
+                <input type="text" name="name" placeholder="Введите ваше имя" required />
+                <input type="tel" name="phone" placeholder="Введите телефон" required />
+                <button>Перезвоните мне</button>
+                <input type="hidden" name="is_popup" value="1" />
+                <input type="hidden" name="from_recall_button" value="0" />
+                <input type="hidden" name="form_id">
+                <input type="hidden" name="l" value="1d922daf372e322ba94ada249c8f248265ca1268" />
+                <input type="hidden" name="fb532ed78bcc66f9c922023985e3535f25741824" value="MGRmOTMzNDhhYWNmODlhMjU4ODc0N2I0MDY2NjE3ZGE0MDE=" />
+            </form>
+                            <div class="popup-m1-text2">Оператор перезвонит Вам через 5-10 минут</div>
+                    </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function(){
+            });
+</script>
+
+
+<link rel="stylesheet" href="assets_pages/css/enhancer_all_style.css?v=3">
+
+
+
+
+
+
+<script type="text/javascript" src="assets_pages/js/m1ref.js"></script>
+<link rel="stylesheet" href="assets_pages/css/popup.css">
+
+<!-- popup-m1-politicians-container -->
+<div id="popup-m1-politicians-container" class="_popup" style="display:none;" data-modalname="agreement">
+
+    <div class="overlay"></div>
+    <div id="popup-m1-politicians">
+        <div class="popup-m1-politicians__close _popup-close"></div>
+        <div class="popup-m1-politicians__content">
+            <div class="popup-m1-content">
+                <div class="popup-m1-politicians__title">
+                    <h4>Terms of Use</h4>
+                </div>
+                <div class="popup-m1-politicians__text">
+                    <p>The information provided on this website is for informational purposes only and is not intended as a substitute for advice from your physician or other health care professional or any information contained on or in any product label or packaging. An advice of a physician should always be sought before using any type of supplemental dietary product. The products advertised here are not intended to diagnose, cure or prevent any disease. If there is a change in your medical condition, please stop using the product and immediately consult your health care professional.</p>
+                    <p>Please keep in mind the fact that the results may vary from individual to individual, depending on health status, sex, age and lifestyle.</p>
+                    <p>Be advised that there is a material connection between the Affiliate operating this website and the Provider of the products or services mentioned within it. In addition, the Affiliate may get a monetary commission or non-monetary compensation whenever you take action by clicking on a hyperlink on this website. This includes, but is not limited to, whenever you purchase a product or service from the Provider after clicking an affiliate link on this website.</p>
+                    <p>The site recommends daily sports activities and a proper diet, which are the main factors that lead to a healthy lifestyle.</p>
+                    <p>All trademarks on this website whether registered or not, are the property of their respective owners. Licensed photos for illustrative purposes only, models are not endorsed.</p>
+                    <p>Use of this Website is subject to the following terms and conditions:</p>
+                    <p>The contents of this Website are intended to be used for general information purposes only and may be altered at any time, at our discretion.
+                        Neither we, nor any third parties involved provide a guarantee to the accuracy, timing, performance, completeness or suitability of the information and materials that can be found and are offered on this Website. You acknowledge that such information and materials may include inaccuracies and also that we are not responsible for any errors or problems which may occur due to such inaccuracies.
+                        <br>
+                        The use of the information and materials on this Website is entirely under your own risk, for which we cannot be held responsible. It is your own responsibility to ensure that any products, services or information provided by this Website will meet your specific requirements.
+                        <br>
+                        This Website includes materials that are not in our possession or licensed by us. These materials include, among other things, the design, layout, look, appearance and graphics. The reproduction is totally prohibited as part of the terms and conditions and violates copyright laws.
+                        <br>
+                        From time to time, this Website may also include links to other Websites. These links are provided at your convenience, in order to provide further information or services. It does not automatically mean that we support these Websites. We take no responsibility for the content of Websites to which we link to.
+                        <br>
+                        Please note that we do not lie in connection with the companies mentioned on this Website and that we acknowledge that the products, company names and logos are trademarks of their respective owners. The website is just an advertising source, where reviews and pricing information of the product may be found.
+                        <br><br>
+                        LLC "TD Globus Contract" OGRN 1161832052832 <br>
+                        TIN 1840051997, 426072, Izhevsk, <br>
+                        St. Molodezhnaya, house 35 office 13.
+                    </p>
+                </div>
+                <div class="popup-m1-politicians__close-button _popup-close _popup-close">Close</div>
+            </div>
+        </div>
+    </div>
+    <!-- /popup-m1-politicians -->
+
+</div>
+<!-- popup-m1-politicians-container -->
+
+<!-- popup-m1-politicians-container -->
+<div id="popup-m1-politicians-container" class="_popup" style="display: none" data-modalname="politics">
+
+    <div class="overlay"></div>
+    <div id="popup-m1-politicians">
+        <div class="popup-m1-politicians__close _popup-close"></div>
+        <div class="popup-m1-politicians__content">
+            <div class="popup-m1-content">
+                <div class="popup-m1-politicians__title">
+                    <h4>Privacy Policy</h4>
+                </div>
+                <div class="popup-m1-politicians__text">
+                    <strong>Your Privacy</strong>
+                    <p>Your privacy is important to us. To better protect your privacy we provide this notice explaining our online information practices and the choices you can make about the way your information is collected and used. To make this notice easy to find, we make it available on our homepage and at every point where personally identifiable information may be requested.</p>
+                    <p>Other Third Party ad servers or ad networks may also use cookies to track users activities on this website to measure advertisement effectiveness and other reasons that will be provided in their own privacy policies, the website has no access or control over these cookies that may be used by third party advertisers.</p>
+
+                    <strong>Collection of Personal Information</strong>
+                    <p>When visiting this website, the IP address used to access the site will be logged along with the dates and times of access. This information is purely used to analyze trends, administer the site, track users movement and gather broad demographic information for internal use. Most importantly, any recorded IP addresses are not linked to personally identifiable information.</p>
+
+                    <strong>Links to third party Websites</strong>
+                    <p>We have included links on this site for your use and reference. We are not responsible for the privacy policies on these websites. You should be aware that the privacy policies of these sites may differ from our own.</p>
+
+                    <strong>Changes to this Privacy Statement</strong>
+                    <p>The contents of this statement may be altered at any time, at our discretion.</p>
+                </div>
+                <div class="popup-m1-politicians__close-button _popup-close">Close</div>
+            </div>
+        </div>
+    </div>
+    <!-- /popup-m1-politicians -->
+
+</div>
+<!-- popup-m1-politicians-container -->
+
+<div id="popup-m1-politicians-container" class="_popup" style="display: none" data-modalname="returnPolicy">
+    <div class="overlay"></div>
+    <div id="popup-m1-politicians">
+        <div class="popup-m1-politicians__close _popup-close"></div>
+        <div class="popup-m1-politicians__content">
+            <div class="popup-m1-content">
+                <div class="popup-m1-politicians__title">
+                    <h4>Возврат товара</h4>
+                </div>
+                <div class="popup-m1-politicians__text">
+                    <p>Я (Покупатель) принимаю условия Пользовательского соглашения / оферты.</p>
+<strong>Пользовательское соглашение / Оферта</strong>
+<p>Настоящее соглашение / оферта содержит основные условия, в соответствии с которыми осуществляется продажа товаров и/услуг. Покупатель вправе не принимать настоящее пользовательское соглашение / оферту, что повлечет за собой отказ от заключения договора.</p>
+<strong>О Покупателе и платежах</strong>
+<p>Покупатель подтверждает, что он имеет право на заключение договора купли-продажи товара и что информация, предоставляемая им, является достоверной.</p>
+<strong>Об информации на сайте и информации о товаре</strong>
+<p>Владельцем данного сайта приняты все разумные меры к тому, чтобы обеспечить точность и актуальность размещенной на этом сайте информации, однако ее точность и полнота не могут быть гарантированы. Владелец сайта оставляет за собой право вносить изменение в содержание материалов этого сайта в любое время по собственному усмотрению. Владельцем сайта является юридическое лицо, указанное в низу стартовой страницы сайта. Владелец сайта может не совпадать с владельцем соответствующего доменного имени сайта.</p>
+<strong>Об ограничении ответственности при пользовании информацией с сайта</strong>
+<p>При любом развитии событий, в связи с возможностью/невозможностью использования ресурсов данного сайта, а также в связи с использованием любой информации с данного сайта кем-либо, если такое использование или невозможность использования информации принесло какой-либо вред, Владелец сайта и его контрагенты не несут ответственности за какой-либо прямой, косвенный, случайный либо сопутствующий ущерб, в особенности, ущерб от упущенной выгоды, потери прибыльности, роста расходов, потери информации и т.п.</p>
+<strong>О правах третьих лиц, копировании информации</strong>
+<p>Товарные знаки, изображенные на данном сайте, принадлежат их владельцам и не могут быть использованы третьими лицами без разрешения владельцев. Размещение товарных знаков на данном сайте не предоставляет третьим лицам никаких прав копирования товарных знаков и размещения их на других ресурсах (товарах). Копирование информации с данного сайта и ее размещение на других ресурсах в коммерческих целях не допускается.</p>
+<strong>О заключении договора</strong>
+<p>Покупатель, изъявляющий желание приобрести товар на сайте посредством заполнения специальных форм, создает и направляет заявку на обработку и комплектацию посылки. Продавец товара гарантирует отправку посылки только после ее комплектации. Продавец товара не гарантирует комплектацию посылки; часть товара отбраковывается при комплектации и Покупателю не высылается, а почтовое отправление не комплектуется. Договор считается заключенным с даты вручения товара Покупателю и его оплаты.</p>
+<strong>О доставке в случае доставки товара</strong>
+<p>Покупателю третьими лицами (Каз почта, курьерские службы, экспедиторские компании и т.д.), сроки доставки и правила доставки регулируются правилами, действующими в этих организациях. При оформлении покупки на сайте или по телефону, Покупателю будут предложены различные варианты доставки, действующие в текущий момент времени для его региона.</p>
+<strong>О возврате товара</strong>
+<p>Товар вместе с товарной упаковкой должен быть помещен в посылку. Не допускается возврат товара без дополнительной почтовой упаковки.</p>
+<p>Покупатель вправе возвратить товар надлежащего качества в течение 7 дней, при условии сохранения его потребительских свойств, товарного вида и документов, прилагаемых к товару при покупке, его упаковки.</p>
+<p>Покупатель вправе возвратить товар ненадлежащего качества в пределах его гарантийного срока, который равен 1 году и исчисляется с даты получения Товара Покупателем. Если в документах, сопровождающих товар, установлен другой срок, Гарантийный срок равен этому другому сроку.</p>
+<p>Возврат любого товара производится по адресу, указанному в Договоре-заказе, а именно в Заявлении на возврат товара.</p>                </div>
+                <div class="popup-m1-politicians__close-button _popup-close">Закрыть</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+</html>

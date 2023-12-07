@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Ubuntu:wght@400;500;700&display=swap");
+
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --color-black-light: #222;
+  --color-aqumarine-light: #57E2C2;
+  --color-aqumarine: #49a4a7;
+  --color-blue: #475d9b;
+
+  --font-main: "Ubuntu", sans-serif;
+  --font-secondary: "Roboto", sans-serif;
+  
+  --fz-small: 12px;
+  --fz-medium: 16px;
+  --fz-extra-medium: 20px;
+  --fz-large: 24px;
+  --fz-extra-large: 32px;
+  --fz--extar-extra-large: 42px;
+}
+
+
+@media screen and (max-width: 1280px) {
+  :root {
+    --fz-medium: 15px;
+    --fz-extra-medium: 19px;
+    --fz-large: 22px;
+    --fz-extra-large: 30px;
+    --fz--extar-extra-large: 40px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  :root {
+    --fz-medium: 14px;
+    --fz-extra-medium: 18px;
+    --fz-large: 20px;
+    --fz-extra-large: 28px;
+    --fz--extar-extra-large: 36px;
+  }
+  
+}
+
+@media screen and (max-width: 500px) {
+  :root {
+    --fz-extra-medium: 15px;
+    --fz-large: 16px;
+    --fz-extra-large: 26px;
+    --fz--extar-extra-large: 32px;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  :root {
+    --fz-medium: 13px;
+    --fz-extra-medium: 14px;
+    --fz-large: 15px;
+    --fz-extra-large: 22px;
+    --fz--extar-extra-large: 25px;
+  }
+
+}
