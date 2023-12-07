@@ -4,7 +4,7 @@ import cors from "cors";
 import multer from 'multer';
 import bot_api from 'node-telegram-bot-api'
 
-const api_key_bot = '6411338976:AAH5Ucnk-unCP5Q7QV6589aFrjz2p0T2NxI';
+const api_key_bot = '';
 
 const bot = new bot_api(api_key_bot,{
     polling:true
